@@ -16,7 +16,7 @@
         <nav class="blue">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="brand-logo">STRIANESE SRL</a>
+                    <a href="#" class="brand-logo">STRIANESE</a>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger">
                         <i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
@@ -170,7 +170,7 @@
 
     <!--parallax-->
 
-    <div class="parallax-container z-depth-3">
+    <div class="parallax-container z-depth-3 hide-on-small-only">
         <div class="parallax"><img src="./img/par2.jpg"></div>
     </div>
 
@@ -359,7 +359,7 @@
     <script>
 
         const sideNav = document.querySelector('.sidenav');
-        M.Sidenav.init(sideNav, {});
+        M.Sidenav.init(sideNav, { draggable: true });
 
         const slider = document.querySelectorAll('.slider');
         M.Slider.init(slider, { indicators: false, height: 500, transition: 500, interval: 5000 });

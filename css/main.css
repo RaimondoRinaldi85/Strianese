@@ -1,9 +1,7 @@
 body{
     background-color: #dedede !important;
 }
-.brand-logo img{
-    width: 80px !important;
-}
+
 .section-follow .fa-4x{
     margin: 5px 10px;
 }
@@ -40,7 +38,7 @@ blockquote{
 }
 
 .section-popular span img{
-    width: 400px;
+    width: 300px !important;
 }
 
 .card{

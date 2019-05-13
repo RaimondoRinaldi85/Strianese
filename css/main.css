@@ -44,3 +44,8 @@ blockquote{
 .card{
     height: 380px !important;
 }
+
+.brand-logo img{
+    width: 200px;
+    margin-top: 10px;
+}

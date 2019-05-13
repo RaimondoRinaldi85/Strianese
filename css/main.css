@@ -1,5 +1,8 @@
 body{
-    background-color: #dedede !important;
+   /* background-color: #dedede !important; */
+
+   background-image: url(../img/wall4.jpg);
+   background-size: cover;
 }
 
 .section-follow .fa-4x{
@@ -46,6 +49,26 @@ blockquote{
 }
 
 .brand-logo img{
-    width: 200px;
-    margin-top: 10px;
+    width: 45px;
+    margin-top: 7px;
+    
 }
+
+/*
+
+.section-popular{
+    background-image: url(../img/wall4.jpg);
+    background-size: cover;
+}
+
+.section-contact{
+    background-image: url(../img/wall4.jpg);
+    background-size: cover;
+}
+
+.section-gallery{
+    background-image: url(../img/wall4.jpg);
+    background-size: cover;
+}
+
+*/

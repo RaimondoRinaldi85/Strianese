@@ -42,6 +42,7 @@ blockquote{
 
 .section-popular span img{
     width: 300px !important;
+    animation: FadeInLogo 2s forwards 0s ease-in;
 }
 
 .card{
@@ -54,21 +55,28 @@ blockquote{
     
 }
 
-/*
 
-.section-popular{
-    background-image: url(../img/wall4.jpg);
-    background-size: cover;
-}
+@keyframes FadeInLogo{
+    0%{
+        opacity: 0;
+        }
+    50%{
+        opacity: 0.5;
+        }
+    100%{
+        opacity: 1;
+        }
+    }
 
-.section-contact{
-    background-image: url(../img/wall4.jpg);
-    background-size: cover;
-}
-
-.section-gallery{
-    background-image: url(../img/wall4.jpg);
-    background-size: cover;
-}
-
-*/
+    [data-scroll] {
+        transition: all 1s;
+      }
+      [data-scroll="in"] {
+        opacity: 1;
+        transform: translateY(0);
+    
+      }
+      [data-scroll="out"] {
+        opacity: 0;
+        transform: translateY(-150px);
+      }
